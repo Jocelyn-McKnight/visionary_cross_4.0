@@ -4,15 +4,18 @@
     <p class="header-text">The Visionary Cross Project</p>
   </a>
 
-  <!-- Hamburger Icon -->
-  <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
-
-  <!-- Nav Menu -->
-  <nav id="nav-links" class="nav-links">
-    <a href="../../frontmatter/history.html">Frontmatter</a>
-    <a href="../../ruthwell/model.html">Ruthwell</a>
-    <a href="../../bewcastle/model.html">Bewcastle</a>
-    <a href="../../brussels/model.html">Brussels</a>
-    <a href="../../backmatter/about.html">About</a>
-  </nav>
+  <!-- Navigation Bar -->
+  <div class="topnav">
+    <a href="{{ site.baseurl }}/index.html" class="active">Home</a>
+    <div id="myLinks">
+      <a href="{{ site.baseurl }}/frontmatter/history.html">Frontmatter</a>
+      <a href="{{ site.baseurl }}/ruthwell/model.html">Ruthwell</a>
+      <a href="{{ site.baseurl }}/bewcastle/model.html">Bewcastle</a>
+      <a href="{{ site.baseurl }}/brussels/model.html">Brussels</a>
+      <a href="{{ site.baseurl }}/backmatter/about.html">About</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
 </header>
