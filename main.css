@@ -33,24 +33,36 @@
     z-index: 2;
 }
 
+/* Hamburger icon */
 .hamburger {
+  position: absolute;
+  top: 20px;
+  right: 30px;
   font-size: 2em;
   cursor: pointer;
-  display: none;
-  z-index: 1001;
+  color: white;
+  z-index: 2;
+  display: none; /* Show on mobile */
 }
 
+/* Navigation menu */
 .nav-links {
   display: flex;
+  justify-content: center;
   gap: 1em;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 0.5em;
+  flex-wrap: wrap;
 }
 
 .nav-links a {
-  color: white;
   text-decoration: none;
-  background-color: black;
+  color: white;
+  background: black;
   padding: 0.5em 1em;
   border-radius: 5px;
+  border: 2px solid white;
+  font-size: 1em;
 }
 
 body {
