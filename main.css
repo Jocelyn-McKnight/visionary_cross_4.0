@@ -33,6 +33,26 @@
     z-index: 2;
 }
 
+.hamburger {
+  font-size: 2em;
+  cursor: pointer;
+  display: none;
+  z-index: 1001;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1em;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+}
+
 body {
     font-family: 'Times New Roman', serif;
     border: 5px solid black; /* Adds a black border around the whole webpage. Makes it look very nice in the mobile form */
