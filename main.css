@@ -37,12 +37,12 @@
 .hamburger-icon {
   position: absolute;
   top: 1rem;
-  right: 1rem;
+  left: 1rem; /* now on the left side */
   font-size: 2rem;
   cursor: pointer;
   color: white;
-  z-index: 1001;
-  background: rgba(0,0,0,0.6);
+  z-index: 1001; /* ensures it's above overlays */
+  background: rgba(0, 0, 0, 0.6);
   padding: 0.5rem;
   border-radius: 5px;
 }
@@ -52,11 +52,11 @@
   display: none;
   position: absolute;
   top: 4rem;
-  right: 1rem;
+  left: 1rem; /* aligns with the hamburger on the left */
   background-color: rgba(0, 0, 0, 0.9);
   padding: 1rem;
   border-radius: 8px;
-  z-index: 1000;
+  z-index: 1000; /* high enough to float above hero image */
 }
 
 .hamburger-menu a {
