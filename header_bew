@@ -1,0 +1,19 @@
+<header class="header">
+  <a href="../backmatter/table.html">
+    <img src="../../img/head_bew.jpg" alt="Project Image" title="The Bewcastle Cross">
+    <p class="header-text">Bewcastle</p>
+  </a>
+
+<!-- HAMBURGER ICON -->
+<div class="hamburger-icon" onclick="toggleMenu()">
+  &#9776;
+</div>
+
+<!-- Dropdown Menu -->
+<nav id="hamburgerMenu" class="hamburger-menu">
+                <li><a href="bewcastle/intro.html">Introduction</a></li>
+                <li><a href="bewcastle/model.html">3D Model</a></li>
+                <li><a href="bewcastle/panels.html">Panels</a></li>
+                <li><a href="bewcastle/more.html">More Information</a></li>
+</nav>
+</header>
