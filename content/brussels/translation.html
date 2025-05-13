@@ -12,7 +12,7 @@
     
    <div id="header"></div>
 <script>
-    fetch('../../header.html')
+    fetch('../../header_brus.html')
         .then(response => response.text())
         .then(data => {
             document.getElementById('header').innerHTML = data;
@@ -36,13 +36,6 @@
 
         <!-- Right Section for Navigation and Project Info -->
         <div class="right">
-            <nav class="navbar">
-                 <button onclick="location.href='../frontmatter/preface.html'">Frontmatter</button>
-                <button onclick="location.href='../ruthwell/intro.html'">Ruthwell</button>
-                <button onclick="location.href='../bewcastle/intro.html'">Bewcastle</button>
-                <button onclick="location.href='../brussels/intro.html'">Brussels</button>
-                 <button onclick="location.href='../about/intro.html'">About</button>
-            </nav>
             <div class="info">
                 <h1>Brussels Cross</h1>
               <h3>Translation</h3>
