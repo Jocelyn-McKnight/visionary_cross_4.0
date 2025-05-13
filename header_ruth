@@ -1,0 +1,22 @@
+<header class="header">
+  <a href="../backmatter/table.html">
+    <img src="../../img/head_ruth.jpg" alt="Project Image" title="The Ruthwell Cross">
+    <p class="header-text">The Visionary Cross Project</p>
+  </a>
+
+<!-- HAMBURGER ICON -->
+<div class="hamburger-icon" onclick="toggleMenu()">
+  &#9776;
+</div>
+
+<!-- Dropdown Menu -->
+<nav id="hamburgerMenu" class="hamburger-menu">
+                <li><a href="/intro.html">Introduction</a></li>
+                <li><a href="./model.html">3D Model</a></li>
+                <li><a href="/panels.html">Panels</a></li>
+                <li><a href="/transcriptions.html">Transcriptions</a></li>
+                <li><a href="/transliteration.html">Transliteration</a></li>
+                <li><a href="/translation.html">Translation</a></li>
+                <li><a href="/more.html">More Information</a></li>
+</nav>
+</header>
