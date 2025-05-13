@@ -4,18 +4,18 @@
     <p class="header-text">The Visionary Cross Project</p>
   </a>
 
-  <!-- Navigation Bar -->
-  <div class="topnav">
-    <a href="{{ site.baseurl }}/index.html" class="active">Home</a>
-    <div id="myLinks">
+  <!-- Hamburger menu icon -->
+    <div class="hamburger" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </div>
+
+    <!-- Collapsible menu -->
+    <div id="myLinks" class="nav-links">
       <a href="{{ site.baseurl }}/frontmatter/history.html">Frontmatter</a>
       <a href="{{ site.baseurl }}/ruthwell/model.html">Ruthwell</a>
       <a href="{{ site.baseurl }}/bewcastle/model.html">Bewcastle</a>
       <a href="{{ site.baseurl }}/brussels/model.html">Brussels</a>
       <a href="{{ site.baseurl }}/backmatter/about.html">About</a>
     </div>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
   </div>
 </header>
