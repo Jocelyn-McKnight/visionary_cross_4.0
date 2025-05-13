@@ -11,7 +11,7 @@
     <!-- JavaScript that pulls the header.html from the root of the repository -->
    <div id="header"></div>
 <script>
-    fetch('../../header.html')
+fetch('../../header_home.html')
         .then(response => response.text())
         .then(data => {
             document.getElementById('header').innerHTML = data;
@@ -35,16 +35,7 @@
         <p></p>
 
         <!-- Right Column always information -->
-        <div class="right">
-            <!-- Navigation Bar that could be communal like the header and footer. fix later -->
-            <nav class="navbar">
-                <button onclick="location.href='../frontmatter/preface.html'">Frontmatter</button>
-                <button onclick="location.href='../ruthwell/intro.html'">Ruthwell</button>
-                <button onclick="location.href='../bewcastle/intro.html'">Bewcastle</button>
-                <button onclick="location.href='../brussels/intro.html'">Brussels</button>
-                 <button onclick="location.href='../about/intro.html'">About</button>
-            </nav>
-            
+        <div class="right">        
             <!-- Project Information Section -->
             <div class="info">
                 <h1>Preface</h1>
